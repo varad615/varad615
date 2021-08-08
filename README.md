@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @varad615
-- 👀 I’m interested in UI designing and Frontend Coder
+- 👀 I’m interested in UI designing and Frontend
 - 🌱 I’m currently learning Python
 - 📫 How to reach me - varad615@gmail.com 
 
