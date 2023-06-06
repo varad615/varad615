@@ -17,12 +17,16 @@ import Link from "next/link";
 
 export default function Projects() {
   const [userdata, setuserdata] = useState("");
+  const [userrepo, setuserrepo] = useState("");
   useEffect(() => {
     fetch("https://api.github.com/users/varad615")
       .then((response) => response.json())
       .then((data) => setuserdata(data));
+    fetch("https://api.github.com/users/varad615/repos")
+      .then((response) => response.json())
+      .then((data) => setuserrepo(data));
   }, []);
-
+  console.log("What are u seeing in this log. You wont find anything.😊");
   const iconstyle = { color: "#7d8590", fontSize: "1.5em" };
   return (
     <>

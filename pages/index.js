@@ -22,7 +22,7 @@ export default function Home() {
       .then((response) => response.json())
       .then((data) => setuserdata(data));
   }, []);
-
+  console.log("What are u seeing in this log. You wont find anything.😊");
   const iconstyle = { color: "#7d8590", fontSize: "1.5em" };
   return (
     <>
@@ -40,7 +40,7 @@ export default function Home() {
                   </div>
                 </button>
               </div>
-              <Link href="/projects">
+              <Link href="https://github.com/varad615?tab=repositories">
                 <button className="hover:bg-[#21262C] rounded-md border-gray-900 border-opacity-20">
                   <div className="inline-flex space-x-2 items-center justify-start px-3 py-1.5">
                     <HiOutlineDocumentText color="#535962" />
