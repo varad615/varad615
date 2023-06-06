@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Varad
+- 👋 Hi, I’m @varad615
 - 👀 I’m interested in UI designing and Frontend
 - 🌱 I’m currently learning something new
 - 📫 How to reach me - varad615@gmail.com 
