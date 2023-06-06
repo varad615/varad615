@@ -30,14 +30,16 @@ export default function Projects() {
         <header className="text-gray-600 body-font">
           <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-              <button className="hover:bg-[#21262C] rounded-md border-gray-900 border-opacity-20">
-                <div className="inline-flex space-x-2 items-center justify-start px-3 py-1.5">
-                  <HiOutlineHome color="#535962" />
-                  <p className="text-sm font-semibold leading-tight text-center text-[#E5EDF3]">
-                    Home
-                  </p>
-                </div>
-              </button>
+              <Link href="/">
+                <button className="hover:bg-[#21262C] rounded-md border-gray-900 border-opacity-20">
+                  <div className="inline-flex space-x-2 items-center justify-start px-3 py-1.5">
+                    <HiOutlineHome color="#535962" />
+                    <p className="text-sm font-semibold leading-tight text-center text-[#E5EDF3]">
+                      Home
+                    </p>
+                  </div>
+                </button>
+              </Link>
               <button className="hover:bg-[#21262C] rounded-md border-gray-900 border-opacity-20">
                 <div className="inline-flex space-x-2 items-center justify-start px-3 py-1.5">
                   <HiOutlineDocumentText color="#535962" />
@@ -127,7 +129,7 @@ export default function Projects() {
                 </div>
                 <div className="mt-6 items-center pb-5 border-gray-100 mb-5">
                   <ul className="list-disc text-white ml-7">
-                    <li>👋 Hi, I’m @varad615</li>
+                    <li>👋 Hi, I’m Varad</li>
                     <li>👀 I’m interested in UI designing and Frontend</li>
                     <li>🌱 I’m currently learning something new</li>
                     <li>
