@@ -5,6 +5,7 @@ import {
   HiOutlineLocationMarker,
   HiShare
 } from "react-icons/hi";
+import { Share } from "@capacitor/share";
 import {
   AiOutlineTwitter,
   AiFillInstagram,
@@ -17,6 +18,14 @@ import Link from "next/link";
 
 export default function Home() {
   const [userdata, setuserdata] = useState("");
+  const share = async () => {
+    await Share.share({
+      title: "Varad Laxman Gundap",
+      text: "Hay have a look out at this portfolio",
+      url: "https://varadgundap.netlify.app",
+      dialogTitle: "Share this portfolio"
+    });
+  };
   useEffect(() => {
     fetch("https://api.github.com/users/varad615")
       .then((response) => response.json())
@@ -126,7 +135,7 @@ export default function Home() {
                     </Link>
                   </div>
                   <div>
-                    <HiShare className="text-[#6B727D] hover:text-[#2F81F7] text-lg" />
+                  <HiShare onClick={() => share()} className="text-[#6B727D] hover:text-[#2F81F7] text-lg" />
                   </div>
                 </div>
                 <div className="mt-6 items-center pb-5 border-gray-100 mb-5">
