@@ -15,6 +15,7 @@ import {
 import { useEffect, useState } from "react";
 import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Home() {
   const [userdata, setuserdata] = useState("");
@@ -35,6 +36,9 @@ export default function Home() {
   const iconstyle = { color: "#7d8590", fontSize: "1.5em" };
   return (
     <>
+    <Head>
+      <title>Varad Gundap | Home</title>
+    </Head>
       <section className="text-gray-600 body-font overflow-hidden">
         <header className="text-gray-600 body-font">
           <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
