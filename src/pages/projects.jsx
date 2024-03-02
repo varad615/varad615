@@ -21,7 +21,6 @@ export default function Home() {
     <>
       <Head>
         <title>Varad Gundap | Projects</title>
-        <meta name="google-site-verification" content="Z7x_YUYOId_zQYToKuPzzsDOCytDYkGOcS1vukG-_MU" />
         <meta
           name="description"
           content="Welcome to Varad Gundap's portfolio. I am a software engineer specializing in building web applications."
