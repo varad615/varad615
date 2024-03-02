@@ -20,8 +20,34 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Varad Gundap | Projects</title>
+        <title>Varad Gundap | Projects</title>{" "}
+        <meta
+          name="description"
+          content="Welcome to Varad Gundap's portfolio. I am a software engineer specializing in building web applications."
+        />
+        <link rel="canonical" href="https://varadgundap.netlify.app" />
+        <meta property="og:url" content="https://varadgundap.netlify.app/" />
+        <meta property="og:title" content="Varad Gundap - Software Engineer" />
+        <meta
+          property="og:description"
+          content="Welcome to Varad Gundap's portfolio. I am a software engineer specializing in building web applications."
+        />
+        <meta
+          property="og:image"
+          content="https://avatars.githubusercontent.com/u/30592638"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Varad Gundap - Software Engineer" />
+        <meta
+          name="twitter:description"
+          content="Welcome to Varad Gundap's portfolio. I am a software engineer specializing in building web applications."
+        />
+        <meta
+          name="twitter:image"
+          content="https://avatars.githubusercontent.com/u/30592638"
+        />
       </Head>
+
       <HomePage>
         <div className="lg:w-1/2 mb-7 w-full lg:ml-7 rounded-md border-2 border-[#2B3138] p-4 lg:py-6 mt-6 lg:mt-7">
           <div>
