@@ -1,2 +1,9 @@
+# *
 User-agent: *
-Disallow:
+Allow: /
+
+# Host
+Host: https://varadgundap.netlify.app
+
+# Sitemaps
+Sitemap: https://varadgundap.netlify.app/sitemap.xml
