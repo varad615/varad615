@@ -70,7 +70,7 @@ export default function Home() {
               </ul>
               <br />
               <img
-                src="http://github-readme-streak-stats.herokuapp.com?user=varad615&theme=dark&hide_border=true"
+                src="https://github-readme-streak-stats.herokuapp.com?user=varad615&theme=dark&hide_border=true"
                 alt="score"
               />
             </div>
