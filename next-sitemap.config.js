@@ -9,14 +9,8 @@ module.exports = {
         }
       ]
     },
-    sitemapSize: 5000,
+    sitemapSize: 50000,
     targetDirectory: 'public',
     exportTrailingSlash: true,
-    exclude: ['/private/*'],
-    transform: async (config, { dev, defaultHostname, isServer }) => {
-      return {
-        hostname: defaultHostname,
-        exclude: ['/server-side-only']
-      };
-    }
+    exclude: ['/server-side-only'],
   };
